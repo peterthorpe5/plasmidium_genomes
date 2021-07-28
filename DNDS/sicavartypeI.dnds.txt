@@ -1,0 +1,15 @@
+sub_cluster_10_len_33.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=4.65104269   p3=0.25000000   
+sub_cluster_1_len_143.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=1.79717166   p3=0.25000000   
+sub_cluster_23_len_20.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=0.42318108   p3=0.25000000   
+sub_cluster_25_len_16.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=2.34360660   p3=0.25000000   
+sub_cluster_28_len_15.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=2.70007455   p3=0.25000000   
+sub_cluster_2975_len_5.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=0.42830266   p3=0.25000000   
+sub_cluster_31_len_14.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=3.78573660   p3=0.25000000   
+sub_cluster_32_len_14.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=2.37230377   p3=0.25000000   
+sub_cluster_34_len_14.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=2.36720618   p3=0.25000000   
+sub_cluster_45_len_12.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=3.15281896   p3=0.25000000   
+sub_cluster_4902_len_4.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=1.27788092   p3=0.25000000   
+sub_cluster_49_len_11.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=2.62061704   p3=0.25000000   
+sub_cluster_4_len_83.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=3.65053826   p3=0.25000000   
+sub_cluster_6_len_56.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=0.59683590   p3=0.25000000   
+sub_cluster_9_len_43.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=3.84784135   p3=0.25000000   

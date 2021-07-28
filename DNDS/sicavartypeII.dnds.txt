@@ -1,0 +1,5 @@
+gros_cluster_1000_len_5.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=6.14645103   p3=0.25000000   
+gros_cluster_10_len_33.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=4.65103107   p3=0.25000000   
+gros_cluster_13_len_29.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=0.63344032   p3=0.25000000   
+gros_cluster_23_len_20.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=0.42318111   p3=0.25000000   
+gros_cluster_4896_len_4.fasta_aligned.fasta_refine..DNA_backtranslated.fasta.phy_codonphyml_stats.txt:    Omega / Probability: o3=1.83390605   p3=0.25000000   

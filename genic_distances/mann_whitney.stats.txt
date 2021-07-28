@@ -1,0 +1,168 @@
+######################################
+kir
+> python compare_BUSCO_to_kir.py
+LOOKING AT: sks047 3 prime
+
+
+we have 156 BUSCO
+
+mean =  2714.551282051282 Standar dev =  4635.301112248945
+
+we have 22 3 prime KIR
+
+mean =  6521.0 Standar dev =  9035.358286401064
+normal skewtest assemb_lens = 11.895 pvalue = 0.0000    normal skewtest db_lens =  3.609 pvalue = 0.0003   man-whitney     2340.5  pvalue  0.005817711493246622
+                                                                                                           
+looking at sks047: 5 prime                                                                                 
+we have 156 5 prime BUSCO                                                                                  
+                                                                                                           
+mean =  2414.0705128205127 Standar dev =  2941.789844400461                                                
+we have 22 5 prime KIR                                                                                     
+                                                                                                           
+mean =  6649.181818181818 Standar dev =  8825.946457804572                                                 
+normal skewtest assemb_lens =  9.952 pvalue = 0.0000    normal skewtest db_lens =  3.511 pvalue = 0.0004   man-whitney     2375.5  pvalue  0.0035846094302297293
+                                                                                                           
+LOOKING AT: sk048: 3 prime                                                                                 
+                                                                                                           
+we have 157 BUSCO                                                                                          
+                                                                                                           
+mean =  2296.0955414012737 Standar dev =  3574.8546338686588                                               
+we have 21 3 prime KIR                                                                                     
+                                                                                                           
+mean =  5090.952380952381 Standar dev =  5912.9279144550665                                                
+normal skewtest assemb_lens = 12.172 pvalue = 0.0000    normal skewtest db_lens =  4.756 pvalue = 0.0000   man-whitney     2519.5  pvalue  8.661690367505823e-05
+                                                                                                           
+LOOKING AT:t sk048: 5 prime                                                                                
+we have 157 5 prime BUSCO                                                                                  
+                                                                                                           
+mean =  2179.5350318471337 Standar dev =  2547.4680486639772                                               
+we have 21 5 prime KIR                                                                                     
+                                                                                                           
+mean =  7762.428571428572 Standar dev =  10474.590891301486                                                
+normal skewtest assemb_lens =  9.686 pvalue = 0.0000    normal skewtest db_lens =  2.950 pvalue = 0.0032   man-whitney     2260.5  pvalue  0.005826048749238621
+                                                                                                           
+ LOOKING AT: culture: 3 prime                                                                              
+                                                                                                           
+we have 139 BUSCO                                                                                          
+                                                                                                           
+mean =  2761.0863309352517 Standar dev =  3076.734018852263                                                
+we have 52 3 prime KIR                                                                                     
+                                                                                                           
+mean =  4605.192307692308 Standar dev =  4549.008040806858                                                 
+normal skewtest assemb_lens =  8.006 pvalue = 0.0000    normal skewtest db_lens =  4.715 pvalue = 0.0000   man-whitney     4835.0  pvalue  0.00033199082256260386
+                                                                                                           
+LOOKING AT: culture: 5 prime                                                                               
+we have 139 5 prime BUSCO                                                                                  
+                                                                                                           
+mean =  2905.5107913669067 Standar dev =  3327.0762465869293                                               
+we have 52 5 prime KIR                                                                                     
+                                                                                                           
+mean =  5731.0192307692305 Standar dev =  6876.234391254877                                                
+normal skewtest assemb_lens =  7.993 pvalue = 0.0000    normal skewtest db_lens =  5.887 pvalue = 0.0000   man-whitney     4797.5  pvalue  0.0005038661836926021
+looking at ref: 3 prime                                                                                    
+                                                                                                           
+we have 157 BUSCO                                                                                          
+                                                                                                           
+mean =  1764.3375796178343 Standar dev =  1161.6895753511315                                               
+we have 0 3 prime KIR                                                                                      
+                                                                                                           
+                                                                                                           
+                                                                                                           
+#######################################################################################################    
+SICAVARII                                                                                                  
+                                                                                                           
+ > python compare_BUSCO_to_sicavarII.py                                                                    
+                                                                                                           
+ LOOKING AT: culture: 3 prime                                                                              
+                                                                                                           
+we have 139 BUSCO                                                                                          
+                                                                                                           
+('mean = ', 2761.0863309352517, 'Standar dev = ', 3076.734018852263)                                       
+we have 14 3 prime SICAVARII                                                                               
+                                                                                                           
+('mean = ', 3171.785714285714, 'Standar dev = ', 2382.524776623423)                                        
+normal skewtest assemb_lens =  8.006 pvalue = 0.0000    normal skewtest db_lens =  2.115 pvalue = 0.0344   Mann-whitney    1180.0  0.19131079841268595
+                                                                                                           
+LOOKING AT: culture: 5 prime                                                                               
+we have 139 5 prime BUSCO                                                                                  
+                                                                                                           
+('mean = ', 2905.5107913669067, 'Standar dev = ', 3327.0762465869293)                                      
+we have 14 5 prime SICAVARII                                                                               
+                                                                                                           
+('mean = ', 7001.928571428572, 'Standar dev = ', 6773.75656975703)                                         
+normal skewtest assemb_lens =  7.993 pvalue = 0.0000    normal skewtest db_lens =  2.723 pvalue = 0.0065   Mann-whitney    1487.0  0.001156594400539239
+looking at ref: 3 prime                                                                                    
+                                                                                                           
+we have 157 BUSCO                                                                                          
+                                                                                                           
+('mean = ', 1764.3375796178343, 'Standar dev = ', 1161.6895753511315)                                      
+we have 0 3 prime SICAVARII                                                                                
+                                                                                                           
+#################################################################################################          
+> python compare_BUSCO_to_sicavarI.py                                                                      
+LOOKING AT: sks047 3 prime                                                                                 
+                                                                                                           
+                                                                                                           
+we have 156 BUSCO                                                                                          
+                                                                                                           
+('mean = ', 2714.551282051282, 'Standar dev = ', 4635.301112248945)                                        
+                                                                                                           
+we have 65 3 prime SICAVARI                                                                                
+                                                                                                           
+('mean = ', 8910.753846153846, 'Standar dev = ', 10664.665884673366)                                       
+normal skewtest assemb_lens = 11.895 pvalue = 0.0000    normal skewtest db_lens =  5.302 pvalue = 0.0000   man-whitney     7169.5  pvalue  1.2579837013388633e-06
+                                                                                                           
+looking at sks047: 5 prime                                                                                 
+we have 156 5 prime BUSCO                                                                                  
+                                                                                                           
+('mean = ', 2414.0705128205127, 'Standar dev = ', 2941.789844400461)                                       
+we have 66 5 prime SICAVARI                                                                                
+                                                                                                           
+('mean = ', 9705.378787878788, 'Standar dev = ', 9965.294675150373)                                        
+normal skewtest assemb_lens =  9.952 pvalue = 0.0000    normal skewtest db_lens =  3.955 pvalue = 0.0001   man-whitney     7802.0  pvalue  1.30880084870526e-09
+                                                                                                           
+LOOKING AT: sk048: 3 prime                                                                                 
+                                                                                                           
+we have 157 BUSCO                                                                                          
+                                                                                                           
+('mean = ', 2296.0955414012737, 'Standar dev = ', 3574.8546338686588)                                      
+we have 77 3 prime SICAVARI                                                                                
+                                                                                                           
+('mean = ', 9423.532467532468, 'Standar dev = ', 8988.70201048858)                                         
+normal skewtest assemb_lens = 12.172 pvalue = 0.0000    normal skewtest db_lens =  4.550 pvalue = 0.0000   man-whitney     9652.0  pvalue  1.232361536398098e-13
+                                                                                                           
+LOOKING AT:t sk048: 5 prime                                                                                
+we have 157 5 prime BUSCO                                                                                  
+                                                                                                           
+('mean = ', 2179.5350318471337, 'Standar dev = ', 2547.4680486639772)                                      
+we have 78 5 prime SICAVARI                                                                                
+                                                                                                           
+('mean = ', 10893.307692307691, 'Standar dev = ', 13578.016980991544)                                      
+normal skewtest assemb_lens =  9.686 pvalue = 0.0000    normal skewtest db_lens =  6.620 pvalue = 0.0000   man-whitney     9096.0  pvalue  1.3858978006834177e-09
+                                                                                                           
+ LOOKING AT: culture: 3 prime                                                                              
+                                                                                                           
+we have 139 BUSCO                                                                                          
+                                                                                                           
+('mean = ', 2761.0863309352517, 'Standar dev = ', 3076.734018852263)                                       
+we have 125 3 prime SICAVARI                                                                               
+                                                                                                           
+('mean = ', 8459.88, 'Standar dev = ', 10710.833249827017)                                                 
+normal skewtest assemb_lens =  8.006 pvalue = 0.0000    normal skewtest db_lens =  8.946 pvalue = 0.0000   man-whitney     12621.5 pvalue  2.150104816327802e-10
+                                                                                                           
+LOOKING AT: culture: 5 prime                                                                               
+we have 139 5 prime BUSCO                                                                                  
+                                                                                                           
+('mean = ', 2905.5107913669067, 'Standar dev = ', 3327.0762465869293)                                      
+we have 125 5 prime SICAVARI                                                                               
+                                                                                                           
+('mean = ', 7921.872, 'Standar dev = ', 10586.804234688387)                                                
+normal skewtest assemb_lens =  7.993 pvalue = 0.0000    normal skewtest db_lens =  9.268 pvalue = 0.0000   man-whitney     12512.5 pvalue  6.649447819985855e-10
+looking at ref: 3 prime                                                                                    
+
+we have 157 BUSCO
+
+('mean = ', 1764.3375796178343, 'Standar dev = ', 1161.6895753511315)
+we have 0 3 prime SICAVARI
+
+
