@@ -1,0 +1,28 @@
+culturel.gene_type.busco
+normal skewtest assemb_lens = 60.176 pvalue = 0.0000	normal skewtest db_lens = 40.668 pvalue = 0.0000	man-whitney	21853654.5	pvalue	0.9242351363163136
+ref.gene_type.sicaI
+sk047.gene_type.sicaI
+normal skewtest assemb_lens = 51.703 pvalue = 0.0000	normal skewtest db_lens =  3.916 pvalue = 0.0001	man-whitney	573781.0	pvalue	1.946415689719042e-42
+culturel.gene_type.kir
+normal skewtest assemb_lens = 60.176 pvalue = 0.0000	normal skewtest db_lens =  6.597 pvalue = 0.0000	man-whitney	430541.0	pvalue	6.669401837549441e-27
+ref.gene_type.sicaII
+sk047.gene_type.sicaII
+culturel.gene_type.sicaI
+normal skewtest assemb_lens = 60.176 pvalue = 0.0000	normal skewtest db_lens =  6.538 pvalue = 0.0000	man-whitney	1065004.0	pvalue	6.6240091601259e-70
+sk048.gene_type.busco
+normal skewtest assemb_lens = 57.932 pvalue = 0.0000	normal skewtest db_lens = 41.016 pvalue = 0.0000	man-whitney	24242364.5	pvalue	0.6686802360937639
+culturel.gene_type.sicaII
+normal skewtest assemb_lens = 60.176 pvalue = 0.0000	normal skewtest db_lens =  2.953 pvalue = 0.0031	man-whitney	120171.5	pvalue	1.0507313096355953e-09
+sk048.gene_type.kir
+normal skewtest assemb_lens = 57.932 pvalue = 0.0000	normal skewtest db_lens =  1.041 pvalue = 0.2981	man-whitney	171622.5	pvalue	3.988120856303537e-11
+ref.gene_type.busco
+normal skewtest assemb_lens = 56.395 pvalue = 0.0000	normal skewtest db_lens = 43.210 pvalue = 0.0000	man-whitney	26722258.5	pvalue	0.4003386503475761
+sk047.gene_type.busco
+normal skewtest assemb_lens = 51.703 pvalue = 0.0000	normal skewtest db_lens = 37.521 pvalue = 0.0000	man-whitney	24310258.0	pvalue	0.670585707408722
+sk048.gene_type.sicaI
+normal skewtest assemb_lens = 57.932 pvalue = 0.0000	normal skewtest db_lens =  5.472 pvalue = 0.0000	man-whitney	658720.5	pvalue	1.0958465128197159e-42
+ref.gene_type.kir
+ref.gene_type.kir
+sk047.gene_type.kir
+normal skewtest assemb_lens = 51.703 pvalue = 0.0000	normal skewtest db_lens =  5.684 pvalue = 0.0000	man-whitney	182957.0	pvalue	9.402158930384525e-13
+sk048.gene_type.sicaII
