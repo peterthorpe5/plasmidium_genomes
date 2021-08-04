@@ -123,4 +123,26 @@ python ${python_repo}/rewrite_as_fasta.py -i sks048_proteins_sica_beta.hmm.nt.fa
 python ${python_repo}/rewrite_as_fasta.py -i PublishedReference_proteins_sica_c.hmm.nt.fasta -l 300 -o  PublishedReference_proteins_sica_c.hmm.nt2.fasta 
 python ${python_repo}/rewrite_as_fasta.py -i sks048_proteins_sica_c.hmm.nt.fasta -l 300 -o  sks048_proteins_sica_c.hmm.nt2.fasta 
 
+# no gapps:
+
+	
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in Cultured_proteins_kir.hmm.nt2.fasta -out Cultured_proteins_kir.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks047_proteins_kir.hmm.nt2.fasta -out sks047_proteins_kir.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in Cultured_proteins_sica_alpha.hmm.nt2.fasta -out Cultured_proteins_sica_alpha.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks047_proteins_sica_alpha.hmm.nt2.fasta -out sks047_proteins_sica_alpha.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in Cultured_proteins_sica_beta.hmm.nt2.fasta -out Cultured_proteins_sica_beta.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks047_proteins_sica_beta.hmm.nt2.fasta -out sks047_proteins_sica_beta.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in Cultured_proteins_sica_c.hmm.nt2.fasta -out Cultured_proteins_sica_c.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks047_proteins_sica_c.hmm.nt2.fasta -out sks047_proteins_sica_c.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in PublishedReference_proteins_kir.hmm.nt2.fasta -out PublishedReference_proteins_kir.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks048_proteins_kir.hmm.nt2.fasta -out sks048_proteins_kir.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in PublishedReference_proteins_sica_alpha.hmm.nt2.fasta -out PublishedReference_proteins_sica_alpha.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks048_proteins_sica_alpha.hmm.nt2.fasta -out sks048_proteins_sica_alpha.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in PublishedReference_proteins_sica_beta.hmm.nt2.fasta -out PublishedReference_proteins_sica_beta.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks048_proteins_sica_beta.hmm.nt2.fasta -out sks048_proteins_sica_beta.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in PublishedReference_proteins_sica_c.hmm.nt2.fasta -out PublishedReference_proteins_sica_c.hmm.nt2_gappy.fasta -nogaps
+/storage/home/users/pjt6/trimal-1.4.1/source/trimal  -in sks048_proteins_sica_c.hmm.nt2.fasta -out sks048_proteins_sica_c.hmm.nt2_gappy.fasta -nogaps
+
+
+
 
