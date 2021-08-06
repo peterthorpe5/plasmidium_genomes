@@ -6,7 +6,9 @@ library(ggplot2)
 setwd("C:/Users/pjt6/Documents/plasmidium_genomes/genic_distances/")
 
 # how I have imported data into R before....
-data<-read.table("sk047_genic_distances.heatmap.txt", header=TRUE)
+# wipe any previous variable
+data <- ""
+data<-read.table("sk048_genic_distances.heatmap.txt", header=TRUE, sep=("\t"))
 
 
 p <- ggplot (data, aes(log(fiveprime), log(threeprime)))
@@ -18,18 +20,18 @@ p + geom_point(aes(colour=factor(Class), shape=factor(Class)))
 p + geom_bin2d (bins = 40)+ scale_fill_gradient (low="black", high = "white")+(geom_point(aes(colour=factor(Class), shape=factor(Class))))
 
 
-ggsave(filename = ("sk047_heat_maps_actual_result001.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+ggsave(filename = ("sk048_heat_maps_actual_result001.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
-ggsave(filename = ("sk047_heat_maps_actual_result001.eps"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+ggsave(filename = ("sk048_heat_maps_actual_result001.eps"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
 
 
 
  p + geom_bin2d (bins = 40)+ scale_fill_gradient (low="black", high = "white")+(geom_point(aes(colour=factor(Class), shape=factor(Class)))) + scale_colour_manual(values = c("green","blue", "orange", "purple"))
 
-ggsave(filename = ("sk047_heat_maps_actual_result001_colours.pdf"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+ggsave(filename = ("sk048_heat_maps_actual_result001_colours.pdf"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
-ggsave(filename = ("sk047_heat_maps_actual_result001_colours.eps"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+ggsave(filename = ("sk048_heat_maps_actual_result001_colours.eps"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
 
 
@@ -39,7 +41,7 @@ ggsave(filename = ("sk047_heat_maps_actual_result001_colours.eps"), plot = last_
 p + geom_bin2d (bins = 40)+ scale_fill_gradient (low="black", high = "white") + geom_point(aes(colour=factor(Class))) +facet_grid(.~Class)
 
 
-#ggsave(filename = ("sk047_heat_maps_actual_result003a.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+#ggsave(filename = ("sk048_heat_maps_actual_result003a.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
 
 
@@ -59,10 +61,10 @@ p + geom_bin2d (bins = 40)+ scale_fill_gradient (low="black", high = "white") +f
 
 #p + geom_bin2d (bins = 40)+ scale_fill_gradient (low="black", high = "white") +(geom_point(aes(colour=factor(Class), +facet_grid(.~Class)
 
-ggsave(filename = ("sk047_heat_maps_facet001.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+ggsave(filename = ("sk048_heat_maps_facet001.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
 
-ggsave(filename = ("sk047_heat_maps_facet.eps"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+ggsave(filename = ("sk048_heat_maps_facet.eps"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
 
 
@@ -74,7 +76,7 @@ ggsave(filename = ("sk047_heat_maps_facet.eps"), plot = last_plot(), scale = 1, 
 p + geom_bin2d (bins = 80)+ scale_fill_gradient (low="black", high = "white")+(geom_point(aes(colour=factor(Class), 
 shape=factor(Class)))) + scale_colour_manual(values = c("blue"))
 
-ggsave(filename = ("sk047_heat_maps_real001a_colours_wild.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
+ggsave(filename = ("sk048_heat_maps_real001a_colours_wild.png"), plot = last_plot(), scale = 1, width = 7, height = 7, dpi = 1200, limitsize = TRUE)
 
 
  p + geom_bin2d (bins = 40)+ scale_fill_gradient (low="black", high = "white")+(geom_point(aes(colour=factor(Class), shape=factor(Class)))) + scale_colour_manual(values = c("blue"))

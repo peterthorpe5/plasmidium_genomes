@@ -11,19 +11,26 @@ cmd="/storage/home/users/pjt6/trimal-1.4.1/source/trimal
 echo ${cmd}
 #eval ${cmd}
 
-kir_align_backtranslated.fasta
 
 cmd="/storage/home/users/pjt6/trimal-1.4.1/source/trimal  
 -in kir_align_backtranslated.fasta
 -out kir_align_backtranslated_gappy.fasta
 -fasta
--gappyout" 
+--nogaps" 
 echo ${cmd}
 #eval ${cmd}
 
 # trim al
-#/storage/home/users/pjt6/shelf_apps/apps/iqtree-1.6.12-Linux/bin/iqtree -s kir_align_backtranslated_gappy.fasta \
-#-st AA -m TEST -bb 1000 -alrt 1000 -mem 200GB -nt AUTO 
+/storage/home/users/pjt6/shelf_apps/apps/iqtree-1.6.12-Linux/bin/iqtree -s kir_align_backtranslated_gappy.fasta \
+-st CODON -m TEST -bb 1000 -alrt 1000 -mem 200GB -nt AUTO 
 
 /storage/home/users/pjt6/shelf_apps/apps/iqtree-1.6.12-Linux/bin/iqtree -s c_backtranslated_gappy.fasta \
--st AA -m TEST -bb 1000 -alrt 1000 -mem 200GB -nt AUTO 
+-st CODON -m TEST -bb 1000 -alrt 1000 -mem 200GB -nt AUTO 
+
+
+/storage/home/users/pjt6/shelf_apps/apps/iqtree-1.6.12-Linux/bin/iqtree -s alpha.hmm.AA.filtered.fasta.refine.fasta2 -st AA -m TEST -bb 1000 -alrt 1000 -mem 200GB -nt AUTO 
+
+/storage/home/users/pjt6/shelf_apps/apps/iqtree-1.6.12-Linux/bin/iqtree -s  beta.hmm.AA.filtered.fasta.refine.fasta2 -st AA -m TEST -bb 1000 -alrt 1000 -mem 200GB -nt AUTO 
+
+/storage/home/users/pjt6/shelf_apps/apps/iqtree-1.6.12-Linux/bin/iqtree -s c.hmm.AA.filtered.fasta.refine.fasta2 -st AA -m TEST -bb 1000 -alrt 1000 -mem 200GB -nt AUTO 
+
