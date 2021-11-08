@@ -1,0 +1,11 @@
+  # sikavar type 1
+  RED
+  
+  
+   # sikavar type 2
+   purple
+    # kir set  
+    yellow
+    
+    
+    Blocks of NNs are zaggy grey bits
