@@ -1,0 +1,61 @@
+
+
+import os
+
+
+sicaII_set = set("""PKA1H1_STAND_010023600
+PKA1H1_STAND_020005400
+PKA1H1_STAND_030005100
+PKA1H1_STAND_030005300
+PKA1H1_STAND_030017100
+PKA1H1_STAND_040013000
+PKA1H1_STAND_060026100
+PKA1H1_STAND_080005100
+PKA1H1_STAND_080018600
+PKA1H1_STAND_080036000
+PKA1H1_STAND_110005100
+PKA1H1_STAND_110050700
+PKA1H1_STAND_140048000
+PKA1H1_STAND_140048400
+PKA1H1_STAND_100038200
+PKCLINC047_040011400
+PKCLINC047_060025100
+PKCLINC047_080019200
+PKCLINC047_000007300
+PKCLINC047_000010300
+PKCLINC047_080023500
+PKCLINC047_080046300
+PKCLINC047_130029600
+PKCLINC047_140047600
+PKCLINC048_040013300
+PKCLINC048_080019200
+PKCLINC048_080048100
+PKCLINC048_030005800
+PKCLINC048_060026500
+PKCLINC048_090052300
+PKCLINC048_110005200""".split())
+
+
+print(len(sicaII_set))
+
+
+f_open = open("Orthogroups.txt", "r")
+f_out = open("sicaII.orthofinder2", "w")
+out_set = set([])
+for line in f_open:
+    data = line.split()
+    for i in data:
+        if i in sicaII_set:
+            out_set.add(line)
+        i = i.split(".1")[0]
+        if i in sicaII_set:
+            out_set.add(line)
+        i = i.replace(":", "_")
+        if i in sicaII_set:
+            out_set.add(line)
+        
+for i in out_set:
+    f_out.write(i)
+
+f_open.close()
+f_out.close()
